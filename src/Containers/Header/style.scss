@@ -1,0 +1,22 @@
+.header {
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #ef5350;
+        height: 60px;
+
+        a {
+            color: #fff;
+            line-height: 60px;
+            padding: 0 20px;
+            text-decoration: none;
+            transition: background 200ms ease;
+
+
+            &:hover {
+                background-color: #e94141;
+                transition: background 200ms ease;
+            }
+        }
+    }
+}

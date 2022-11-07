@@ -1,0 +1,22 @@
+.error-boundary {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ef5350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 120px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    h1, h2 {
+        color: #feca1b;
+        font-weight: bolder;
+    }
+}

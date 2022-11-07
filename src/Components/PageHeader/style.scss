@@ -1,0 +1,35 @@
+.page-heading {
+    background-color: #263238;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 50px;
+        color: #ffcc01;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+        @media (max-width: 991px) {
+            font-size: 30px;
+        }
+    }
+
+    h2 {
+        font-size: 30px;
+        color: #5eadf7;
+
+        @media (max-width: 991px) {
+            font-size: 17px;
+            line-height: 21px;
+            width: 80%;
+            text-align: center;        
+        }
+    }
+
+    img {
+        width: 300px;
+    }
+}

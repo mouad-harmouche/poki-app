@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    min-height: 1000px;
+}
+
+.wrapper {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .wrapper {
+    max-width: 1320px;
+  }
+}
